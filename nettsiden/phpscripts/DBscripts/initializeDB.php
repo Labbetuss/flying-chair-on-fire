@@ -13,7 +13,7 @@ require "db.php";
 
 
 $sql = $dbConn->prepare("
-  CREATE TABLE members (
+  CREATE TABLE users (
   userID INT(20) NOT NULL AUTO_INCREMENT,
   username VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
@@ -35,7 +35,7 @@ $sql = $dbConn->prepare("
   author INT(20) NOT NULL,
   type ENUM('Alle','Teknologi','Kunstfag','Ledelse') NOT NULL,
   PRIMARY KEY(postID),
-  FOREIGN KEY (author) REFERENCES members(userID));
+  FOREIGN KEY (author) REFERENCES users(userID));
 ");
 
 $sql->execute() or die("Da oppstod det en feil ved generering av 'blog_posts' tabellen. Slett hele shiten (author og blog_posts) og prøv på nytt");
@@ -48,7 +48,8 @@ $sql = $dbConn->prepare("
   commentContent TEXT,
   author INT(20) NOT NULL,
   postID INT(20) NOT NULL,
-  PRIMARY KEY(commentID),
+  commentDate DATE NOT NULL,
+  PRIMARY KEY(commentID),|
   FOREIGN KEY (author) REFERENCES members(userID),
   FOREIGN KEY (postID) REFERENCES blog_posts(postID));
 ");
