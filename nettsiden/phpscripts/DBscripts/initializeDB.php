@@ -3,7 +3,7 @@
 
 try {
   $dbCreate = new PDO("mysql:host=localhost", "daniel", "davidsen");
-  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen;") or die("Oppstod problemer med tilkoblinger");
+  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen COLLATE utf16_general_ci;") or die("Oppstod problemer med tilkoblinger");
 } catch (PDOException $e) {
   die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
 }
@@ -49,7 +49,7 @@ $sql = $dbConn->prepare("
   author INT(20) NOT NULL,
   postID INT(20) NOT NULL,
   commentDate DATE NOT NULL,
-  PRIMARY KEY(commentID),|
+  PRIMARY KEY(commentID),
   FOREIGN KEY (author) REFERENCES users(userID),
   FOREIGN KEY (postID) REFERENCES blog_posts(postID));
 ");
