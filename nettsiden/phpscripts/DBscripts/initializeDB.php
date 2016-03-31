@@ -1,16 +1,15 @@
 <?php
 
-require "db.php";
-
-// Liten notis. Bruker variabler fra db.php så viktig at man ikke deklarerer noen i dette dokumentet som heter 'host' 'database' 'user' 'password'
 
 try {
-  $dbCreate = new PDO("mysql:host=$host", $user, $user);
-  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS $database;") or die(print_r($dbCreate->errorInfo(), true));
+  $dbCreate = new PDO("mysql:host=localhost", "root", "root");
+  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen;") or die("Oppstod problemer med tilkoblinger");
 } catch (PDOException $e) {
   die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
 }
 
+
+require "db.php";
 
 
 $sql = $dbConn->prepare("
@@ -72,8 +71,6 @@ $sql = $dbConn->prepare("
 $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabellen. Slett alle tabeller og prøv på nytt. Eventuelt ta kontakt med Daniel");
 
 //-----------------------------------------------------------------------------------
-
-echo "Da virker det som alt gikk som det skulle!";
 
 
  ?>
