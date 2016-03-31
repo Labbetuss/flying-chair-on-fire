@@ -9,10 +9,10 @@ try {
 }
 
 
-require "db.php";
+// require "db.php";
 
 
-$sql = $dbConn->prepare("
+$sql = $dbCreate->prepare("
   CREATE TABLE users (
   userID INT(20) NOT NULL AUTO_INCREMENT,
   username VARCHAR(255) NOT NULL,
@@ -26,7 +26,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'author' tabell
 
 //---------------------------------------------------------------------------
 
-$sql = $dbConn->prepare("
+$sql = $dbCreate->prepare("
   CREATE TABLE blog_posts (
   postID INT(20) NOT NULL AUTO_INCREMENT,
   postTitle VARCHAR(255) NOT NULL,
@@ -42,7 +42,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'blog_posts' ta
 
 // ------------------------------------------------------------------------------
 
-$sql = $dbConn->prepare("
+$sql = $dbCreate->prepare("
   CREATE TABLE comments (
   commentID INT(20) NOT NULL AUTO_INCREMENT,
   commentContent TEXT,
@@ -58,7 +58,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'comments' tabe
 
 // ----------------------------------------------------------------------------------
 
-$sql = $dbConn->prepare("
+$sql = $dbCreate->prepare("
   CREATE TABLE oppslag (
   oppslagID INT(20) NOT NULL AUTO_INCREMENT,
   oppslagTitle VARCHAR(255) NOT NULL,
