@@ -9,10 +9,10 @@ try {
 }
 
 
-// require "db.php";
+require "db.php";
 
 
-$sql = $dbCreate->prepare("
+$sql = $dbConn->prepare("
   CREATE TABLE users (
   userID INT(20) NOT NULL AUTO_INCREMENT,
   username VARCHAR(255) NOT NULL,
@@ -26,7 +26,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'author' tabell
 
 //---------------------------------------------------------------------------
 
-$sql = $dbCreate->prepare("
+$sql = $dbConn->prepare("
   CREATE TABLE blog_posts (
   postID INT(20) NOT NULL AUTO_INCREMENT,
   postTitle VARCHAR(255) NOT NULL,
@@ -42,7 +42,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'blog_posts' ta
 
 // ------------------------------------------------------------------------------
 
-$sql = $dbCreate->prepare("
+$sql = $dbConn->prepare("
   CREATE TABLE comments (
   commentID INT(20) NOT NULL AUTO_INCREMENT,
   commentContent TEXT,
@@ -50,7 +50,7 @@ $sql = $dbCreate->prepare("
   postID INT(20) NOT NULL,
   commentDate DATE NOT NULL,
   PRIMARY KEY(commentID),|
-  FOREIGN KEY (author) REFERENCES members(userID),
+  FOREIGN KEY (author) REFERENCES users(userID),
   FOREIGN KEY (postID) REFERENCES blog_posts(postID));
 ");
 
@@ -58,7 +58,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'comments' tabe
 
 // ----------------------------------------------------------------------------------
 
-$sql = $dbCreate->prepare("
+$sql = $dbConn->prepare("
   CREATE TABLE oppslag (
   oppslagID INT(20) NOT NULL AUTO_INCREMENT,
   oppslagTitle VARCHAR(255) NOT NULL,
@@ -66,7 +66,7 @@ $sql = $dbCreate->prepare("
   date_posted DATE,
   author INT(20) NOT NULL,
   PRIMARY KEY(oppslagID),
-  FOREIGN KEY (author) REFERENCES members(userID));
+  FOREIGN KEY (author) REFERENCES users(userID));
 ");
 
 $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabellen. Slett alle tabeller og prøv på nytt. Eventuelt ta kontakt med Daniel");
