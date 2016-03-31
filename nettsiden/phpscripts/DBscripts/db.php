@@ -2,8 +2,8 @@
 
   $host = "localhost";
   $database = "PJEksamen";
-  $user = "root";
-  $password = "root";
+  $user = "daniel";
+  $password = "davidsen";
 
   try {
       $dbConn = new PDO("mysql:host=$host; dbname=$database", "$user", "$password");
@@ -12,12 +12,5 @@
     echo "Feil ved tilkobling mot databasen, spør Daniel om hjelp" . $e->getMessage();
     exit();
   }
-
-
-
-
-  
-
-
 
  ?>

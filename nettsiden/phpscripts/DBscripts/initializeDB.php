@@ -2,7 +2,7 @@
 
 
 try {
-  $dbCreate = new PDO("mysql:host=localhost", "root", "root");
+  $dbCreate = new PDO("mysql:host=localhost", "daniel", "davidsen");
   $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen;") or die("Oppstod problemer med tilkoblinger");
 } catch (PDOException $e) {
   die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
