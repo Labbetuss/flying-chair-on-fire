@@ -9,7 +9,7 @@ try {
 }
 
 
-// require "db.php";
+require "db.php";
 
 
 $sql = $dbConn->prepare("
