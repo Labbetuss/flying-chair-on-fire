@@ -1,0 +1,68 @@
+/* 
+    Created on : Mar 30, 2016, 10:28:09 AM
+    Author     : Silje Lilleeng Johnsen
+*/
+body{
+    height: 100%;
+}
+html{
+    height: 100%
+}
+#wrapper{
+    position: relative;
+    max-width: 1024px;
+    margin: auto;
+    min-height: 100%;
+}
+#logo{
+    margin: 20px;
+    height: auto;
+    width: 1024px;
+    border: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    list-style: none;
+}
+#meny{
+    min-width: 1024px;
+    height: 50px;
+    width: 1024px;
+    background-color: white;
+    position: relative;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+li a{
+    float: left;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li a:hover{
+    color: darkgrey;
+    transform: scale(1.2);
+}
+ul{
+    list-style-type: none;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 50px;
+}
+#foot{
+    min-width: 1024px;
+    height: 50px;
+    width: 1024px;
+    background-color: white;
+    position: relative;
+    margin-top: -50px;
+    clear: both;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black; 
+    margin: auto;
+}
