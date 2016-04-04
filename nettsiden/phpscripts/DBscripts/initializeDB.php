@@ -18,7 +18,7 @@ $sql = $dbConn->prepare("
   username VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
-  authority_level ENUM('ADMIN','STUDENT','LÆRER'),
+  authority_level ENUM('ADMIN','STUDENT','TEACHER','BLOGGERE','KOKKER','EVENTS'),
   PRIMARY KEY(userID));
 ");
 
@@ -33,7 +33,7 @@ $sql = $dbConn->prepare("
   postContent TEXT,
   postDate DATE NOT NULL,
   author INT(20) NOT NULL,
-  type ENUM('Alle','Teknologi','Kunstfag','Ledelse') NOT NULL,
+  type ENUM('Alle','Teknologi','Kunstfag','Ledelse', 'Kommunikasjon') NOT NULL,
   PRIMARY KEY(postID),
   FOREIGN KEY (author) REFERENCES users(userID));
 ");
@@ -73,5 +73,50 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabel
 
 //-----------------------------------------------------------------------------------
 
+
+// Så må vi fylle users tabellen med litt data
+
+$sql = $dbConn->prepare("
+  INSERT INTO users (username, password, email, authority_level) VALUES
+  ('test', SHA1('testbruker'), 'testbruker@student.westerdals.no', 'STUDENT'),
+  ('admin', SHA1('adminbruker'), 'adminbruker@student.westerdals.no', 'ADMIN'),
+  ('teacher', SHA1('teacherbruker'), 'teacherbruker@student.westerdals.no', 'TEACHER'),
+  ('blogger', SHA1('bloggerbruker'), 'bloggerbruker@student.westerdals.no', 'BLOGGERE'),
+  ('kokker', SHA1('kokkerbruker'), 'kokkerbruker@student.westerdals.no', 'KOKKER'),
+  ('events', SHA1('eventsbruker'), 'eventsbruker@student.westerdals.no', 'EVENTS');
+");
+
+$sql->execute() or die("Veldig rart at feilen skulle oppstå her. Men gi Daniel feilkode 23");
+
+//---------------------------------------------------------------------------------------
+
+$sql = $dbConn->prepare("
+  INSERT INTO blog_posts (postTitle, postContent, postDate, author, type) VALUES
+  ('Velkommen til Fjerdingen sin blogg', 'Da har vi endelig en flott blogg! Tenk hvor heldige vi er på denne campusen!', 2016-04-04, 3, 'Alle'),
+  ('Alle vet at Avdeling Teknologi er best! Ingen protest.', 'Teknologi er best! <b> BEST </b>', 2016-04-05, 4, 'Teknologi'),
+  ('Ledelse uten leder!', 'Hvordan skal det gå med Avdeling for Ledelse som ikke har noen ledere', 2016-04-06, 3, 'Ledelse'),
+  ('Kunst i hverdagen!', 'Vi ber om at alle elever finner kunst i hverdagen som de publiserer i kommentarene under!', 2016-04-07, 3, 'Kunstfag');
+");
+
+$sql->execute() or die("Fortsatt rart å få en feilmelding her! Men gi Daniel feilkode 23");
+
+//------------------------------------------------------------------------------------------
+
+$sql = $dbConn->prepare("
+  INSERT INTO oppslag (oppslagTitle, oppslagContent, date_posted, author) VALUES
+  ('Studenter søkes for prosjekt', 'Need students for a project, the pay is not good but the work is hard!', 2016-01-01, 0);
+")
+
+$sql->execute() or die("Rart å ha en feil her, men gi Daniel feilkode 23");
+
+
+//-------------------------------------------------------------------------------------------
+
+$sql = $dbConn->prepare("
+  INSERT INTO comments (commentContent, author, postID, commentDate) VALUES
+  ('Dette er noe tull! Hvor er pengene våre!', 0, 0, 2016-04-05);
+")
+
+$sql->execute() or die("Er fortsatt rart med en feilmelding her. Men gi Daniel feilmelding 23!");
 
  ?>
