@@ -73,7 +73,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabel
 
 //-----------------------------------------------------------------------------------
 
-
+/*
 // Så må vi fylle users tabellen med litt data
 
 $sql = $dbConn->prepare("
@@ -118,5 +118,7 @@ $sql = $dbConn->prepare("
 ")
 
 $sql->execute() or die("Er fortsatt rart med en feilmelding her. Men gi Daniel feilmelding 23!");
+
+*/
 
  ?>
