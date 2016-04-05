@@ -4,7 +4,7 @@ $verbose = false;
 $contact_mail = 'davdan15@student.westerdals.no';
 
 define('BASE_URI', '../');
-define('BASE_URL', '198.199.124.229/flying-chair-on-fire/nettsiden/');
+define('BASE_URL', '198.199.124.229/flying_chair_on_fire/');
 define('MYSQL', 'db/db.php');
 
 include('db/db.php');
