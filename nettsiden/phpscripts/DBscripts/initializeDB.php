@@ -73,7 +73,7 @@ $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabel
 
 //-----------------------------------------------------------------------------------
 
-/*
+
 // Så må vi fylle users tabellen med litt data
 
 $sql = $dbConn->prepare("
@@ -104,7 +104,7 @@ $sql->execute() or die("Fortsatt rart å få en feilmelding her! Men gi Daniel f
 
 $sql = $dbConn->prepare("
   INSERT INTO oppslag (oppslagTitle, oppslagContent, date_posted, author) VALUES
-  ('Studenter søkes for prosjekt', 'Need students for a project, the pay is not good but the work is hard!', 2016-01-01, 0);
+  ('Studenter søkes for prosjekt', 'Need students for a project, the pay is not good but the work is hard!', 2016-01-01, 4);
 ")
 
 $sql->execute() or die("Rart å ha en feil her, men gi Daniel feilkode 23");
@@ -114,11 +114,11 @@ $sql->execute() or die("Rart å ha en feil her, men gi Daniel feilkode 23");
 
 $sql = $dbConn->prepare("
   INSERT INTO comments (commentContent, author, postID, commentDate) VALUES
-  ('Dette er noe tull! Hvor er pengene våre!', 0, 0, 2016-04-05);
+  ('Dette er noe tull! Hvor er pengene våre!', 1, 2, 2016-04-05);
 ")
 
 $sql->execute() or die("Er fortsatt rart med en feilmelding her. Men gi Daniel feilmelding 23!");
 
-*/
+
 
  ?>
