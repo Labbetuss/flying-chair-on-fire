@@ -2,9 +2,10 @@
 <?php
 $title = "Nyheter";
 
-$content = "Nyheter fra de forskjellige fakultetene, eller felles nyheter";
+
+
+$content = postArray();
 
 include 'Template.php';
 
 ?>
-
