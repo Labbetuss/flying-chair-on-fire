@@ -1,3 +1,5 @@
+/* av : Silje Lilleeng Johnsen */
+/* hover over tekst for å få annen tekstboks fram */
 body{
     text-align: left;
     position: relative;
@@ -24,4 +26,3 @@ body{
 .tips:hover .tipstekst{
     visibility: visible;
 }
-

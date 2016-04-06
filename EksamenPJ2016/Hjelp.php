@@ -1,4 +1,7 @@
 <!-- av: Silje Lilleeng Johnsen-->
+<!-- For å minske tekst på siden har jeg valg løsningen hover over spørsmål for 
+å få svaret hvist fram i en tekstboks som forsvinner ved at man ikke lengre 
+holder over tekst-->
 <!DOCTYPE html>
 <html>
     <head>

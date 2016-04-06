@@ -1,7 +1,10 @@
-/* 
-    Created on : Mar 30, 2016, 10:28:09 AM
-    Author     : Silje Lilleeng Johnsen
-*/
+/* av : Silje Lilleeng Johnsen */
+/* header funksjonalitet, og 
+midtstilling av innholdet på alle sidene,
+samt tekst funksjonalitet 
+Denne er nesten lik meny, men samtidig litt forskjellig,
+siden alle sidene ikke har samme kodespråket, og vi ønsket 
+gjenngang i utseende på sidene ble dette løsningen*/
 body{
     height: 100%;
 }

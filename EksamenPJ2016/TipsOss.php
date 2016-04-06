@@ -1,4 +1,5 @@
 <!-- av: Silje Lilleeng Johnsen-->
+<!-- Skal inneholde (navn, epost, kommentarfelt, og "gruppetilhørighet") -->
 <!DOCTYPE html>
 <html>
     <head>
