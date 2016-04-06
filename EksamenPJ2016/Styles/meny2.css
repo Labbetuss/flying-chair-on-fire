@@ -5,13 +5,11 @@
 body{
     height: 100%;
 }
-html{
-    height: 100%;
-}
 #wrapper{
     max-width: 1200px;
     margin: auto;
     min-height: 100%;
+    padding-top: 50px;
 }
 #meny{
     min-width: 1200px;

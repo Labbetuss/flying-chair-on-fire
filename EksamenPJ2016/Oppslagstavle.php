@@ -2,9 +2,9 @@
 <?php
 $title = "Oppslagstavle";
 
-
 $content = "Jeg trenger, jeg tilbyr, kjøp, selg, date";
 
 include 'Template.php';
-
+include 'Templatefoot.php';
 ?>
+

@@ -1,0 +1,27 @@
+body{
+    text-align: left;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    min-height: -800px;
+}
+.tips {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted darkgray;
+}
+.tips .tipstekst{
+    visibility: hidden;
+    width: 700px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tips:hover .tipstekst{
+    visibility: visible;
+}
+

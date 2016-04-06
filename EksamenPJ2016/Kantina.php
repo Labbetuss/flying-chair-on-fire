@@ -9,5 +9,5 @@ $content = "<h3>På menyen denne uken:</h3>
 
 
 include 'Template.php';
-
+include 'Templatefoot.php';
 ?>
