@@ -1,13 +1,6 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 7, 2016, 1:51:54 PM
-    Author     : Silje
-*/
-
+/* av : Silje og Herman*/
+/* Skalerer bilder og tekst med vindu størrelse, og at 
+stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
 body{
     text-align: left;
     position: relative;

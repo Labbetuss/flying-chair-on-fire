@@ -49,6 +49,7 @@ ul{
 .logginn img{
     height: 25px;
     width: auto;
+    float: right;
 }
 .error{
     color: red;

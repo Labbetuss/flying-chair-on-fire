@@ -8,7 +8,7 @@ holder over tekst-->
         <meta charset="utf-8">
         <title>Hjelp</title>
         <link rel="stylesheet" type="text/css" href="Styles/tips.css">
-        <link rel="stylesheet" href="Styles/Oppslag.css">
+        <link rel="stylesheet" href="Styles/Sidemal.css">
         <link rel="stylesheet" href="Styles/Responsive.css" media="screen and (max-width:1200px)">
     </head>
     <body>
@@ -16,8 +16,7 @@ holder over tekst-->
 include 'Templateutencont.php';
 ?>
         <div class="boks-innhold">
-                <div class="trestk">
-        <div class="tredjedel tredjedel-andre kollaps">
+            <div class="hoved kollaps">
                 <h1>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</h1>
                 <ul>
                     <li>
@@ -54,14 +53,13 @@ include 'Templateutencont.php';
                     </li>
                 </ul>
             </div>
-        <div class="tredjedel kollaps">
+        <div class="side kollaps">
                 <h3>DON'T PANIC <i>and grab your towel</i></h3>
                 <p>Vi er <i>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</i>, og er her for og hjelpe deg 
                 slik at din skolehverdag blir mest mulig behaglig for deg.
                 Hvis du føler at du er i en Arthur Dent situasjon, og alt det kjente og kjære
                 føles håpløst langt borte, frykt ikke, for vi er din Ford Prefect, og vi har
                 flere løsninger til nytte for deg på denne siden.</p>
-        </div>
         </div>
         </div>
     </body>

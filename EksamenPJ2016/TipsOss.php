@@ -6,15 +6,15 @@
         <meta charset="utf-8">
         <title>Tips oss</title>
         <link rel="stylesheet" type="text/css" href="Styles/Oppslag.css">
-        <link rel="stylesheet" href="Styles/Sidemal.css" media="screen and (max-width:1200px)">
+        <link rel="stylesheet" href="Styles/Sidemal.css">
+        <link rel="stylesheet" href="Styles/Responsive.css" media="screen and (max-width:1200px)">
     </head>
     <body>
 <?php
         include 'Templateutencont.php';
 ?>
     <div class="boks-innhold">
-        <div class="innhold kollaps">
-            <div class="tredjedel kollaps">
+        <div class="hoved kollaps">
             <h1>Vi er gruppe 23</h1>
             <p>Vi er eksamensgruppe 23, dette er vår løsning på oppgaven for 
                 våren 2016. Fokuset vårt på denne oppgaven har vært å lage en 
@@ -31,9 +31,8 @@
                 <li>Herman Johannessen</li>
             </ul>
             <p> Håper dere liker løsningen vi har kommet med!</p>
-        </div>
     </div>
-        <div class="tredjedel tredjedel-andre kollaps">
+        <div class="side kollaps">
         <?php 
         
         $navn = $epost = $type = $kommentar = "";

@@ -26,10 +26,13 @@ div.innhold{
     float: left;
 }
 /* gjør at bildene scalerer med vinduet */
-img{
-    max-width: 100%;
-    height: auto;
-    margin: 0 0 10px 0;
+.hoved{
+    width: 65%;
+    float: left;
+}
+.side{
+    width: 30%;
+    float: right;
 }
 @media screen and (max-width: 800px)
 {
