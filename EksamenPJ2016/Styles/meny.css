@@ -2,15 +2,17 @@
 /* header funksjonalitet, og 
 midtstilling av innholdet på alle sidene,
 samt tekst funksjonalitet */
-body{
+body {
     height: 100%;
 }
-#wrapper{
+
+#wrapper {
     max-width: 1200px;
     margin: auto;
     min-height: 100%;
 }
-.meny{
+
+.meny {
     min-width: 1200px;
     height: 100px;
     width: 1024px;
@@ -21,7 +23,8 @@ body{
     border-bottom: 2px solid;
     margin: auto;
 }
-li a{
+
+li a {
     float: left;
     color: black;
     padding: 15px 20px;
@@ -29,28 +32,34 @@ li a{
     font-family: sans-serif;
     font-size: 20px;
 }
+
 li a:hover {
     color: darkgrey;
     transform: scale(1.2);
 }
-#main{
+
+#main {
     float: left;
     width: 1024px;
     padding: 50px;
     margin: 20px 0 20px 0;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.logo img{
+
+.logo img {
     height: 50px;
     width: auto;
 }
-.logginn img{
+
+.logginn img {
     height: 25px;
     width: auto;
     float: right;
 }
-.error{
+
+.error {
     color: red;
 }

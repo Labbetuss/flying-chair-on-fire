@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3b4e548-223b-4d60-b34f-caa8977605d6" name="Default" comment="" />
+    <list default="true" id="f3b4e548-223b-4d60-b34f-caa8977605d6" name="Default" comment="Skal fungere">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Events.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Hjelp.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Hjelp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/OmOss.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/OmOss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Nyheter.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Nyheter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Oppslag.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Oppslag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Responsive.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Sidemal.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Sidemal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/meny.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/meny.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/tips.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/tips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Template.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templatefoot.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templatefoot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templatehead.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templatehead.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/TipsOss.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/TipsOss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/index.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/kantineinfo.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/kantineinfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/EksamenPJ2016/nbproject/private/private.xml" />
+    </list>
     <ignored path="flying-chair-on-fire.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -16,6 +44,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="flying-chair-on-fire" />
@@ -29,10 +64,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Template.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
       </list>
     </option>
   </component>
@@ -66,10 +103,13 @@
           <State>
             <id>SQL</id>
           </State>
+          <State>
+            <id>Spelling</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SqlNoDataSourceInspection</id>
+            <id>Spelling</id>
           </State>
         </selected-state>
       </profile-state>
@@ -82,7 +122,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -101,6 +141,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,33 +214,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flying-chair-on-fire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flying-chair-on-fire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EksamenPJ2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EksamenPJ2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -217,6 +240,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -241,32 +270,33 @@
       <option name="presentableId" value="Default" />
       <updated>1460043317587</updated>
       <workItem from="1460043319634" duration="1720000" />
+      <workItem from="1460045357487" duration="3342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1720000" />
+    <option name="totallyTimeSpent" value="5062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.8498943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.8435518" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.15010571" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.1564482" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -286,68 +316,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Innlegg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <marker date="1460043481382" expanded="true" signature="129:607" placeholder="..." />
-            <marker date="1460043481382" expanded="true" signature="140:599" placeholder="..." />
-            <marker date="1460043481382" expanded="true" signature="323:550" placeholder="..." />
-            <marker date="1460043481382" expanded="true" signature="727:1329" placeholder="..." />
-            <marker date="1460043481382" expanded="true" signature="742:1318" placeholder="{&quot;selector&quot;: \'#bcontent\'...}" />
-            <marker date="1460043481382" expanded="true" signature="803:1094" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <marker date="1460039849388" expanded="true" signature="737:962" placeholder="CREATE TABLE... users" />
-            <marker date="1460039849388" expanded="true" signature="1196:1507" placeholder="CREATE TABLE... blog_posts" />
-            <marker date="1460039849388" expanded="true" signature="1769:2056" placeholder="CREATE TABLE... comments" />
-            <marker date="1460039849388" expanded="true" signature="2332:2630" placeholder="CREATE TABLE... oppslag" />
-            <marker date="1460039849388" expanded="true" signature="2954:3262" placeholder="INSERT INTO users... " />
-            <marker date="1460039849388" expanded="true" signature="4318:4542" placeholder="INSERT INTO oppslag... " />
-            <marker date="1460039849388" expanded="true" signature="4745:4883" placeholder="INSERT INTO comments... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
-            <marker date="1460044607188" expanded="true" signature="600:638" placeholder="SELECT * FRO... blog_posts" />
+            <marker date="1460048529115" expanded="true" signature="610:648" placeholder="SELECT * FRO... blog_posts" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Nyheter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,6 +330,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52517576-e93b-4e2a-a715-86e65ff772b5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1460048529492" expanded="true" signature="750:975" placeholder="CREATE TABLE... users" />
+            <marker date="1460048529492" expanded="true" signature="1208:1519" placeholder="CREATE TABLE... blog_posts" />
+            <marker date="1460048529492" expanded="true" signature="1781:2068" placeholder="CREATE TABLE... comments" />
+            <marker date="1460048529492" expanded="true" signature="2344:2642" placeholder="CREATE TABLE... oppslag" />
+            <marker date="1460048529492" expanded="true" signature="2966:3274" placeholder="INSERT INTO users... " />
+            <marker date="1460048529492" expanded="true" signature="4330:4554" placeholder="INSERT INTO oppslag... " />
+            <marker date="1460048529492" expanded="true" signature="4757:4895" placeholder="INSERT INTO comments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1460048529440" expanded="true" signature="228:308" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460048529440" expanded="true" signature="228:329" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460048529440" expanded="true" signature="228:341" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460048529440" expanded="true" signature="228:355" placeholder="INSERT INTO blog_posts... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Nyheter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/OmOss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Innlegg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <marker date="1460048529223" expanded="true" signature="129:607" placeholder="..." />
+            <marker date="1460048529223" expanded="true" signature="140:599" placeholder="..." />
+            <marker date="1460048529223" expanded="true" signature="323:550" placeholder="..." />
+            <marker date="1460048529223" expanded="true" signature="727:1329" placeholder="..." />
+            <marker date="1460048529223" expanded="true" signature="742:1318" placeholder="{&quot;selector&quot;: \'#bcontent\'...}" />
+            <marker date="1460048529223" expanded="true" signature="803:1094" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>

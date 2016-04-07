@@ -1,29 +1,32 @@
 /* av : Silje og Herman*/
 /* Skalerer bilder og tekst med vindu størrelse, og at 
 stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
-body{
+body {
     text-align: left;
     position: relative;
     max-width: 1200px;
     margin: auto;
 }
-.bar{
+
+.bar {
     float: right;
     float: top;
-    background-color: white; 
-    height: 250px; 
-    width: 250px; 
-    border:3px; 
-    border: solid darkgray; 
-    padding: 1em; 
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border: 3px;
+    border: solid darkgray;
+    padding: 1em;
     margin-top: 50px;
 }
-.bilde img{
+
+.bilde img {
     max-width: 100%;
     height: auto;
     margin: 0 0 10px 0;
 }
-.forside{
+
+.forside {
     width: 70%;
     float: left;
     padding-top: 25px;

@@ -1,23 +1,26 @@
 /* av : Silje Lilleeng Johnsen */
 /* Skalerer bilder og tekst med vindu størrelse, og at 
 stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
-body{
+body {
     text-align: left;
     position: relative;
     max-width: 1200px;
     margin: auto;
 }
-.artboks{
+
+.artboks {
     width: 70%;
     float: left;
     margin-top: 30px;
 }
-.arthead{
+
+.arthead {
     width: 100%;
     height: 40px;
     background-color: lightgrey;
 }
-.arttekst{
+
+.arttekst {
     width: 100%;
     border-top: solid 2px lightgrey;
     border-bottom: solid 2px lightgray;

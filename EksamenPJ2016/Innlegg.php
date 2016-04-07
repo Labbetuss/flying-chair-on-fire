@@ -36,11 +36,6 @@ tinymce.init({
 </script>';
 
 
-
-
-
-
-
 //require 'php/config.inc.php';
 include 'Template.php';
 

@@ -6,21 +6,21 @@ $user = "daniel";
 $password = "davidsen";
 
 try {
-  $dbCreate = new PDO("mysql:host=$host", $user, $password);
-  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen COLLATE utf8_general_ci;") or die("Oppstod problemer med tilkoblinger");
+    $dbCreate = new PDO("mysql:host=$host", $user, $password);
+    $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen COLLATE utf8_general_ci;") or die("Oppstod problemer med tilkoblinger");
 } catch (PDOException $e) {
-  die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
+    die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
 }
 
 
 $dbCreate = null;
 
 try {
-  $dbConn = new PDO("mysql:host=$host; dbname=$database", "$user", "$password");
-  $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
-  echo "Feil ved tilkobling mot databasen, spør Daniel om hjelp" . $e->getMessage();
-  exit();
+    $dbConn = new PDO("mysql:host=$host; dbname=$database", "$user", "$password");
+    $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Feil ved tilkobling mot databasen, spør Daniel om hjelp" . $e->getMessage();
+    exit();
 }
 
 
@@ -35,7 +35,6 @@ PRIMARY KEY(userID));
 ");
 $sql->execute() or die("Da oppstod det en feil ved generering av 'author' tabellen. Slett hele shiten og prøv på nytt");
 //---------------------------------------------------------------------------
-
 
 
 $sql = $dbConn->prepare("

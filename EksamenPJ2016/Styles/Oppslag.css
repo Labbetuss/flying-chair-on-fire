@@ -1,11 +1,12 @@
 /* av : Silje Lilleeng Johnsen */
 /* Skalerer bilder og tekst med vindu størrelse, og at 
 stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
-body{
+body {
     padding: 0;
     margin: auto;
 }
-p{
+
+p {
     margin: 0 0 1em 0;
     font-size: 93%;
     line-height: 1.5em;
@@ -13,31 +14,36 @@ p{
     padding-bottom: 25px;
     margin-bottom: 50px;
 }
+
 /* gjør at bildene scalerer med vinduet */
-img{
+img {
     max-width: 100%;
     height: auto;
     margin: 0 0 10px 0;
 }
-div.boks-innhold{
+
+div.boks-innhold {
     padding: 50px 0;
     max-width: 1200px;
     margin: auto;
 }
-div.trestk{
+
+div.trestk {
     padding-bottom: 50px;
 }
-div.tredjedel{
+
+div.tredjedel {
     width: 30%;
     float: left;
     margin-right: 5%;
 }
-div.tredjedel-siste{
+
+div.tredjedel-siste {
     margin: 0;
 }
-@media screen and (max-width: 800px)
-{
-    div.kollaps{
+
+@media screen and (max-width: 800px) {
+    div.kollaps {
         width: auto;
         float: none;
         margin-right: 0;

@@ -11,6 +11,7 @@
  *
  * @author Silje
  */
-class Logginn {
+class Logginn
+{
     //put your code here
 }

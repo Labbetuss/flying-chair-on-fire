@@ -1,17 +1,19 @@
 /* av : Silje Lilleeng Johnsen */
 /* hover over tekst for å få annen tekstboks fram */
-body{
+body {
     text-align: left;
     position: relative;
     max-width: 1200px;
     margin: auto;
 }
+
 .tips {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted darkgray;
 }
-.tips .tipstekst{
+
+.tips .tipstekst {
     visibility: hidden;
     width: 700px;
     background-color: black;
@@ -22,9 +24,11 @@ body{
     position: absolute;
     z-index: 1;
 }
-.tips:hover .tipstekst{
+
+.tips:hover .tipstekst {
     visibility: visible;
 }
-ul{
+
+ul {
     line-height: 3em;
 }
