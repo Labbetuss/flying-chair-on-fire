@@ -8,13 +8,13 @@ body {
     margin: auto;
 }
 
-.bar {
+.bar{
     float: right;
     float: top;
     background-color: white;
-    height: 250px;
+    height: auto;
     width: 250px;
-    border: 3px;
+    border:3px;
     border: solid darkgray;
     padding: 1em;
     margin-top: 50px;
