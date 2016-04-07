@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3b4e548-223b-4d60-b34f-caa8977605d6" name="Default" comment="Skal fungere">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/index.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/index.php" />
+    <list default="true" id="f3b4e548-223b-4d60-b34f-caa8977605d6" name="Default" comment="Liten endring. Ikke noe WHERE condition">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" />
     </list>
     <ignored path="flying-chair-on-fire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="createDB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,22 +108,35 @@
       <file leaf-file-name="getData.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/getData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1460056687244" expanded="true" signature="179:283" placeholder="SELECT postT... blog_posts" />
+                <marker date="1460061320936" expanded="true" signature="179:263" placeholder="SELECT postT... blog_posts" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Templateutencont.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Forside.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Templateutencont.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <marker date="1460054840980" expanded="true" signature="56:1050" placeholder="..." />
+                <marker date="1460054840980" expanded="true" signature="63:249" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,9 +189,10 @@
         <option value="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
-        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/getData.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/getData.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" />
       </list>
     </option>
   </component>
@@ -313,6 +311,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Styles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flying-chair-on-fire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flying-chair-on-fire" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EksamenPJ2016" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -395,12 +411,20 @@
       <option name="presentableId" value="Default" />
       <updated>1460043317587</updated>
       <workItem from="1460043319634" duration="1720000" />
-      <workItem from="1460045357487" duration="13817000" />
+      <workItem from="1460045357487" duration="14716000" />
     </task>
+    <task id="LOCAL-00001" summary="Liten endring. Ikke noe WHERE condition">
+      <created>1460061348716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460061348716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15537000" />
+    <option name="totallyTimeSpent" value="16436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,13 +437,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.836403" order="0" side_tool="false" content_ui="combo" />
@@ -449,7 +473,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Skal fungere" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skal fungere" />
+    <MESSAGE value="Liten endring. Ikke noe WHERE condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Liten endring. Ikke noe WHERE condition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -544,17 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/getData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1460056687244" expanded="true" signature="179:283" placeholder="SELECT postT... blog_posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -609,8 +623,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <marker date="1460054840980" expanded="true" signature="56:1050" placeholder="..." />
+            <marker date="1460054840980" expanded="true" signature="63:249" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/getData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1460061320936" expanded="true" signature="179:263" placeholder="SELECT postT... blog_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
