@@ -31,5 +31,6 @@ function get_blogpost($type = "Alle") {
 
 // Denne funksjonen skriver til databasen. Parameteret består av en Array med verdier
 function insert_blogpost($blogpost){
-  
+  $sql = ""
+
 }
