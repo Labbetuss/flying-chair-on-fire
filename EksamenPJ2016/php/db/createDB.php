@@ -6,11 +6,12 @@ $user = "daniel";
 $password = "davidsen";
 
 try {
-  $dbCreate = new PDO("mysql:host=$database", $user, $password);
-  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen COLLATE utf16_general_ci;") or die("Oppstod problemer med tilkoblinger");
+  $dbCreate = new PDO("mysql:host=$host", $user, $password);
+  $dbCreate->exec("CREATE DATABASE IF NOT EXISTS PJEksamen COLLATE utf8_general_ci;") or die("Oppstod problemer med tilkoblinger");
 } catch (PDOException $e) {
   die("Oppstod en feil, gi denne feilmeldingen til Daniel: " . $e->getMessage());
 }
+
 
 $dbCreate = null;
 
@@ -34,6 +35,9 @@ PRIMARY KEY(userID));
 ");
 $sql->execute() or die("Da oppstod det en feil ved generering av 'author' tabellen. Slett hele shiten og prøv på nytt");
 //---------------------------------------------------------------------------
+
+
+
 $sql = $dbConn->prepare("
 CREATE TABLE blog_posts (
 postID INT(20) NOT NULL AUTO_INCREMENT,
@@ -73,15 +77,19 @@ FOREIGN KEY (author) REFERENCES users(userID));
 ");
 $sql->execute() or die("Da oppstod det en feil ved generering av 'oppslag' tabellen. Slett alle tabeller og prøv på nytt. Eventuelt ta kontakt med Daniel");
 //-----------------------------------------------------------------------------------
+
+
 // Så må vi fylle users tabellen med litt data
 $sql = $dbConn->prepare("
 INSERT INTO users (username, password, email, authority_level) VALUES
 ('test', SHA1('testbruker'), 'testbruker@student.westerdals.no', 'STUDENT'),
 ('admin', SHA1('adminbruker'), 'adminbruker@student.westerdals.no', 'ADMIN'),
-('uadmin', SHA1('underadminbruker'), 'underadmin@student.westerdals.no', 'U_ADMIN'),
+('uadmin', SHA1('underadminbruker'), 'underadmin@student.westerdals.no', 'U_ADMIN');
 ");
 $sql->execute() or die("Veldig rart at feilen skulle oppstå her. Men gi Daniel feilkode 23");
 //---------------------------------------------------------------------------------------
+
+
 $sql = $dbConn->prepare("
 INSERT INTO blog_posts (postTitle, postContent, postDate, author, type) VALUES
 ('Velkommen til Fjerdingen sin blogg', 'Da har vi endelig en flott blogg! Tenk hvor heldige vi er på denne campusen!', '2016-04-04', 3, 'Alle'),
@@ -91,15 +99,17 @@ INSERT INTO blog_posts (postTitle, postContent, postDate, author, type) VALUES
 ");
 $sql->execute() or die("Fortsatt rart å få en feilmelding her! Men gi Daniel feilkode 23");
 //------------------------------------------------------------------------------------------
+
 $sql = $dbConn->prepare("
 INSERT INTO oppslag (oppslagTitle, oppslagContent, date_posted, author, oppslagType) VALUES
 ('Studenter søkes for prosjekt', 'Need students for a project, the pay is not good but the work is hard!', '2016-01-01', 3, 'SKOLE');
-")
+");
 $sql->execute() or die("Rart å ha en feil her, men gi Daniel feilkode 23");
 //-------------------------------------------------------------------------------------------
+
 $sql = $dbConn->prepare("
 INSERT INTO comments (commentContent, author, postID, commentDate) VALUES
 ('Dette er noe tull! Hvor er pengene våre!', 1, 2, '2016-04-05');
-")
+");
 $sql->execute() or die("Er fortsatt rart med en feilmelding her. Men gi Daniel feilmelding 23!");
 ?>
