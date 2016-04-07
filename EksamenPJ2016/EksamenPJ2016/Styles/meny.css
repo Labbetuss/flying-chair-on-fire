@@ -1,0 +1,56 @@
+/* av : Silje Lilleeng Johnsen */
+/* header funksjonalitet, og 
+midtstilling av innholdet på alle sidene,
+samt tekst funksjonalitet */
+body{
+    height: 100%;
+}
+#wrapper{
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100%;
+}
+.meny{
+    min-width: 1200px;
+    height: 100px;
+    width: 1024px;
+    position: relative;
+    clear: none;
+    padding: 5px;
+    border: 20px;
+    border-bottom: 2px solid;
+    margin: auto;
+}
+li a{
+    float: left;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+li a:hover {
+    color: darkgrey;
+    transform: scale(1.2);
+}
+#main{
+    float: left;
+    width: 1024px;
+    padding: 50px;
+    margin: 20px 0 20px 0;
+}
+ul{
+    list-style: none;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.logginn img{
+    height: 25px;
+    width: auto;
+    float: right;
+}
+.error{
+    color: red;
+}
