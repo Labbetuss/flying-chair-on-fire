@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b4e548-223b-4d60-b34f-caa8977605d6" name="Default" comment="Skal fungere">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Events.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Hjelp.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Hjelp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/OmOss.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/OmOss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Forside.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Nyheter.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Nyheter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Oppslag.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Oppslag.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Responsive.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/Sidemal.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/Sidemal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/meny.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/meny.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Styles/tips.css" afterPath="$PROJECT_DIR$/EksamenPJ2016/Styles/tips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Template.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templatefoot.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templatefoot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templatehead.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templatehead.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/TipsOss.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/TipsOss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/index.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/kantineinfo.php" afterPath="$PROJECT_DIR$/EksamenPJ2016/kantineinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EksamenPJ2016/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/EksamenPJ2016/nbproject/private/private.xml" />
     </list>
     <ignored path="flying-chair-on-fire.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +37,146 @@
     <favorites_list name="flying-chair-on-fire" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createDB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+              <folding>
+                <marker date="1460050121724" expanded="true" signature="750:975" placeholder="CREATE TABLE... users" />
+                <marker date="1460050121724" expanded="true" signature="1208:1519" placeholder="CREATE TABLE... blog_posts" />
+                <marker date="1460050121724" expanded="true" signature="1781:2068" placeholder="CREATE TABLE... comments" />
+                <marker date="1460050121724" expanded="true" signature="2344:2642" placeholder="CREATE TABLE... oppslag" />
+                <marker date="1460050121724" expanded="true" signature="2966:3274" placeholder="INSERT INTO users... " />
+                <marker date="1460050121724" expanded="true" signature="4330:4554" placeholder="INSERT INTO oppslag... " />
+                <marker date="1460050121724" expanded="true" signature="4757:4895" placeholder="INSERT INTO comments... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nyheter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Nyheter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <marker date="1460060989859" expanded="true" signature="442:688" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="443:630" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="443:688" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="464:469" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="464:470" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="464:488" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="464:498" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="464:529" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="552:573" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="552:575" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="552:604" placeholder="..." />
+                <marker date="1460060989859" expanded="true" signature="630:681" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logginn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Logginn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#7#191#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Oppslagstavle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/getData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <marker date="1460056687244" expanded="true" signature="179:283" placeholder="SELECT postT... blog_posts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Templateutencont.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Innlegg.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Innlegg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <marker date="1460048529223" expanded="true" signature="129:607" placeholder="..." />
+                <marker date="1460048529223" expanded="true" signature="140:599" placeholder="..." />
+                <marker date="1460048529223" expanded="true" signature="323:550" placeholder="..." />
+                <marker date="1460048529223" expanded="true" signature="727:1329" placeholder="..." />
+                <marker date="1460048529223" expanded="true" signature="742:1318" placeholder="{&quot;selector&quot;: \'#bcontent\'...}" />
+                <marker date="1460048529223" expanded="true" signature="803:1094" placeholder="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <marker date="1460055542498" expanded="true" signature="228:308" placeholder="INSERT INTO blog_posts... " />
+                <marker date="1460055542498" expanded="true" signature="228:329" placeholder="INSERT INTO blog_posts... " />
+                <marker date="1460055542498" expanded="true" signature="228:341" placeholder="INSERT INTO blog_posts... " />
+                <marker date="1460055542498" expanded="true" signature="228:355" placeholder="INSERT INTO blog_posts... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,12 +184,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/Innlegg.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/Template.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/index.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/includes/post.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/includes/getData.php" />
         <option value="$PROJECT_DIR$/EksamenPJ2016/Nyheter.php" />
+        <option value="$PROJECT_DIR$/EksamenPJ2016/Logginn.php" />
       </list>
     </option>
   </component>
@@ -270,27 +395,38 @@
       <option name="presentableId" value="Default" />
       <updated>1460043317587</updated>
       <workItem from="1460043319634" duration="1720000" />
-      <workItem from="1460045357487" duration="3342000" />
+      <workItem from="1460045357487" duration="13817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5062000" />
+    <option name="totallyTimeSpent" value="15537000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.8435518" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.836403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.1564482" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18017058" sideWeight="0.16359697" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -311,21 +447,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Skal fungere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skal fungere" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <marker date="1460048529115" expanded="true" signature="610:648" placeholder="SELECT * FRO... blog_posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/EksamenPJ2016/Nyheter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -341,51 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <marker date="1460048529492" expanded="true" signature="750:975" placeholder="CREATE TABLE... users" />
-            <marker date="1460048529492" expanded="true" signature="1208:1519" placeholder="CREATE TABLE... blog_posts" />
-            <marker date="1460048529492" expanded="true" signature="1781:2068" placeholder="CREATE TABLE... comments" />
-            <marker date="1460048529492" expanded="true" signature="2344:2642" placeholder="CREATE TABLE... oppslag" />
-            <marker date="1460048529492" expanded="true" signature="2966:3274" placeholder="INSERT INTO users... " />
-            <marker date="1460048529492" expanded="true" signature="4330:4554" placeholder="INSERT INTO oppslag... " />
-            <marker date="1460048529492" expanded="true" signature="4757:4895" placeholder="INSERT INTO comments... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1460048529440" expanded="true" signature="228:308" placeholder="INSERT INTO blog_posts... " />
-            <marker date="1460048529440" expanded="true" signature="228:329" placeholder="INSERT INTO blog_posts... " />
-            <marker date="1460048529440" expanded="true" signature="228:341" placeholder="INSERT INTO blog_posts... " />
-            <marker date="1460048529440" expanded="true" signature="228:355" placeholder="INSERT INTO blog_posts... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Nyheter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/OmOss.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -394,10 +481,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Innlegg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
             <marker date="1460048529223" expanded="true" signature="129:607" placeholder="..." />
             <marker date="1460048529223" expanded="true" signature="140:599" placeholder="..." />
@@ -409,10 +520,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Template.php">
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/createDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="750">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+          <folding>
+            <marker date="1460050121724" expanded="true" signature="750:975" placeholder="CREATE TABLE... users" />
+            <marker date="1460050121724" expanded="true" signature="1208:1519" placeholder="CREATE TABLE... blog_posts" />
+            <marker date="1460050121724" expanded="true" signature="1781:2068" placeholder="CREATE TABLE... comments" />
+            <marker date="1460050121724" expanded="true" signature="2344:2642" placeholder="CREATE TABLE... oppslag" />
+            <marker date="1460050121724" expanded="true" signature="2966:3274" placeholder="INSERT INTO users... " />
+            <marker date="1460050121724" expanded="true" signature="4330:4554" placeholder="INSERT INTO oppslag... " />
+            <marker date="1460050121724" expanded="true" signature="4757:4895" placeholder="INSERT INTO comments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/db/mysql.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/getData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1460056687244" expanded="true" signature="179:283" placeholder="SELECT postT... blog_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <marker date="1460055542498" expanded="true" signature="228:308" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460055542498" expanded="true" signature="228:329" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460055542498" expanded="true" signature="228:341" placeholder="INSERT INTO blog_posts... " />
+            <marker date="1460055542498" expanded="true" signature="228:355" placeholder="INSERT INTO blog_posts... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Nyheter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <marker date="1460060989859" expanded="true" signature="442:688" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="443:630" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="443:688" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="464:469" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="464:470" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="464:488" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="464:498" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="464:529" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="552:573" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="552:575" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="552:604" placeholder="..." />
+            <marker date="1460060989859" expanded="true" signature="630:681" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Logginn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Oppslagstavle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EksamenPJ2016/Templateutencont.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>

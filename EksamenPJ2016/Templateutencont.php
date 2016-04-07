@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>?php echo $title; ?</title>
+    <title><?php echo $title; ?></title>
     <link rel="stylesheet" type="text/css" href="Styles/meny.css">
     <!--     <script=$script></script> -->
 </head>

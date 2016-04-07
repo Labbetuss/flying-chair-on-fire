@@ -11,7 +11,5 @@
  *
  * @author Silje
  */
-class Logginn
-{
-    //put your code here
-}
+
+header("Location: Innlegg.php");

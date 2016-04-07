@@ -10,18 +10,17 @@
 <body>
 <?php
 include 'Templateutencont.php';
+require 'includes/getData.php';
+
+$blogArray = returnData();
+
+
+for ($x = 0; $x < 3; $x++) {
+    echo '<div class="artboks" ><div class="arthead"> <h2>' . $blogArray[$x]["postTitle"] . '</h2> <p>Admin</p> </div> <div class="arttekst"> <p>' . $blogArray[$x]["postContent"] . '</p> </div>
+    <div class="artfoot">  <p>' . $blogArray[$x]["postDate"] . '</p>  </div> </div>';
+    }
+
 ?>
-<div class="artboks">
-    <div class="arthead">
-        <h2>Artikkel tittel</h2>
-        <p>atrikkel forfatter</p>
-    </div>
-    <div class="arttekst">
-        <p></p>
-    </div>
-    <div class="artfoot">
-        <p>publiseringsdato</p>
-    </div>
-</div>
+
 </body>
 </html>

@@ -13,5 +13,6 @@ if (mysqli_query($dbc, $sql)) {
     header("Location: ../Innlegg.php");
 } else {
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($dbc);
-}
 
+}
+?>

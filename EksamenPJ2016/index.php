@@ -5,7 +5,6 @@
     <title>Kantine</title>
     <link rel="stylesheet" href="Styles/Forside.css">
 </head>
-<body>
 <?php
 include 'Templateutencont.php';
 ?>
@@ -17,13 +16,14 @@ include 'Templateutencont.php';
 <div class="bar">
     <div>
         <h3>Meny kantine:</h3>
-        <p>Uke 17: Lasagne</p>
-        <p>Uke 18: Pannekaker</p>
-        <p>Uke 19: Pizza</p>
+        <p>Mandag: Lasagne</p>
+        <p>Tirsdag: Pannekaker</p>
+        <p>Onsdag: Pizza</p>
+        <p>Torsdag: Laks og Falafel</p>
+        <p>Fredag: Taco</p>
         <h3>Baren er åpen:</h3>
         <p>Man - Tor: 14:00 - 23:00</p>
         <p>Fre: 13:00 - 23:00</p>
     </div>
 </div>
-</body>
-</html>
+</body></html>

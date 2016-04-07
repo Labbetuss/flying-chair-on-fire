@@ -111,4 +111,7 @@ INSERT INTO comments (commentContent, author, postID, commentDate) VALUES
 ('Dette er noe tull! Hvor er pengene våre!', 1, 2, '2016-04-05');
 ");
 $sql->execute() or die("Er fortsatt rart med en feilmelding her. Men gi Daniel feilmelding 23!");
+
+header("Location: ../../index.php");
+
 ?>

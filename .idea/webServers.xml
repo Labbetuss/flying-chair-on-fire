@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2facf59f-d214-46b7-9438-e85ab185d645" name="DigitalOcean" url="http://198.199.124.229">
+        <fileTransfer host="198.199.124.229" port="22" privateKey="C:\Keys\DigitalOcean.ppk" rootFolder="/var" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
