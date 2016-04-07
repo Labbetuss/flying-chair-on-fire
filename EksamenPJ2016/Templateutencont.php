@@ -10,7 +10,7 @@
     <body>
         <div id="wrapper">
             <nav id="navigation1">
-                <div class="meny" id="meny">
+                <div class="meny">
                     <ul id="menu">
                         <li><a href="index.php"><div class="logo"><img src="Bilder/Fjerdingenlogo.png"></div></a></li>
                         <li><a href="Events.php">EVENTS</a></li>
@@ -18,8 +18,7 @@
                         <li><a href="Oppslagstavle.php">OPPSLAGSTAVLE</a></li>
                         <li><a href="Hjelp.php">HJELP</a></li>
                         <li><a href="TipsOss.php">TIPS OSS</a></li>
-                        <li><a href="OmOss.php">OM OSS</a></li>
-                        <li><a href="Logginn.php"><div class="logginn"><img src="Bilder/ExistingUsersKeyIcon.png"</div></a></li>
+                        <li><a href="Logginn.php"><div class="logginn"><img src="Bilder/ExistingUsersKeyIcon.png"></div></a></li>
                     </ul>
                 </div>
             </nav>

@@ -3,7 +3,7 @@
 stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
 body{
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 p{
     margin: 0 0 1em 0;

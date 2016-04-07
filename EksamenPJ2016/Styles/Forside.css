@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2016, 1:51:54 PM
+    Author     : Silje
+*/
+
+body{
+    text-align: left;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+.bar{
+    float: right;
+    float: top;
+    background-color: white; 
+    height: 250px; 
+    width: 250px; 
+    border:3px; 
+    border: solid darkgray; 
+    padding: 1em; 
+    margin-top: 50px;
+}
+.bilde img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+.forside{
+    width: 70%;
+    float: left;
+    padding-top: 25px;
+}
+

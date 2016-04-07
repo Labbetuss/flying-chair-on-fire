@@ -8,19 +8,16 @@ holder over tekst-->
         <meta charset="utf-8">
         <title>Hjelp</title>
         <link rel="stylesheet" type="text/css" href="Styles/tips.css">
-        <link rel="stylesheet" href="Styles/Sidemal.css" media="screen and (max-width:1200px)">
+        <link rel="stylesheet" href="Styles/Oppslag.css">
+        <link rel="stylesheet" href="Styles/Responsive.css" media="screen and (max-width:1200px)">
     </head>
     <body>
-        <div class="boks-innhold">
-                        <?php
-        include 'Templateutencont.php';
+                <?php
+include 'Templateutencont.php';
 ?>
-                <h3>DON'T PANIC <i>and grab your towel</i></h3>
-                <p>Vi er <i>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</i>, og er her for og hjelpe deg 
-                slik at din skolehverdag blir mest mulig behaglig for deg.
-                Hvis du føler at du er i en Arthur Dent situasjon, og alt det kjente og kjære
-                føles håpløst langt borte, frykt ikke, for vi er din Ford Prefect, og vi har
-                flere løsninger til nytte for deg på denne siden.</p>
+        <div class="boks-innhold">
+                <div class="trestk">
+        <div class="tredjedel tredjedel-andre kollaps">
                 <h1>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</h1>
                 <ul>
                     <li>
@@ -32,7 +29,6 @@ holder over tekst-->
                     den eneste som ikke kommer til å gå på fadderuken, og du er på en linje med 
                     personer som er lik deg og dine interesser, så venner kommer fort her.</span></div>
                     </li>
-                    <li></li>
                     <li>
                         <div class="tips"><b>Jeg drakk opp hele stipendet mitt under fadderuken, hva gjør jeg nå?<br></b>
                     <span class="tipstekst">Kan du ringe hjem til en foresatt å innrømme dine synder for no gryn, gjør det! 
@@ -57,12 +53,16 @@ holder over tekst-->
                         men husk å bytt adresse i folkeregisteret. Det er lånekassen sin feil at de lot deg søke.</span></div>
                     </li>
                 </ul>
+            </div>
+        <div class="tredjedel kollaps">
                 <h3>DON'T PANIC <i>and grab your towel</i></h3>
                 <p>Vi er <i>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</i>, og er her for og hjelpe deg 
-                slik at din skolehverdan blir mest mulig behaglig for deg.
+                slik at din skolehverdag blir mest mulig behaglig for deg.
                 Hvis du føler at du er i en Arthur Dent situasjon, og alt det kjente og kjære
                 føles håpløst langt borte, frykt ikke, for vi er din Ford Prefect, og vi har
                 flere løsninger til nytte for deg på denne siden.</p>
+        </div>
+        </div>
         </div>
     </body>
 </html>
