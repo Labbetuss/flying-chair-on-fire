@@ -11,7 +11,7 @@ require 'config.inc.php';
 function returnData()
 {
     global $dbc;
-    $sqlSelect = "SELECT postTitle, postContent, postDate FROM blog_posts WHERE type = 'Alle' ORDER BY postID DESC LIMIT 3;";
+    $sqlSelect = "SELECT postTitle, postContent, postDate FROM blog_posts ORDER BY postID DESC LIMIT 3;";
 
     $selectResult = mysqli_query($dbc, $sqlSelect);
     $returnArray = array();
