@@ -12,7 +12,7 @@
 include 'Templateutencont.php';
 ?>
         <div class="boks-innhold">
-                <div class="trestk clearfix">
+                <div class="trestk">
         <div class="tredjedel kollaps">
             <img src="Bilder/IS09AR7JD_Comp.jpg" alt="Eksempelbilde"/>
             <h2>Jeg ønsker!!!</h2>

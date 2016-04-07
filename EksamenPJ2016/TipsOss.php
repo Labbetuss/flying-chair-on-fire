@@ -5,11 +5,36 @@
     <head>
         <meta charset="utf-8">
         <title>Tips oss</title>
+        <link rel="stylesheet" type="text/css" href="Styles/Oppslag.css">
+        <link rel="stylesheet" href="Styles/Sidemal.css" media="screen and (max-width:1200px)">
     </head>
     <body>
-        <div id="meny">
-        <?php 
+<?php
         include 'Templateutencont.php';
+?>
+    <div class="boks-innhold">
+        <div class="innhold kollaps">
+            <div class="tredjedel kollaps">
+            <h1>Vi er gruppe 23</h1>
+            <p>Vi er eksamensgruppe 23, dette er vår løsning på oppgaven for 
+                våren 2016. Fokuset vårt på denne oppgaven har vært å lage en 
+                side som er lett å navigere og som sømløst gir en brukervennlig 
+                samt informativ nettside for de som er interesserte i hva som 
+                skjer på det nye campuset på Fjerdingen.</p>
+            <ul>
+                <li><b>Gruppen består av 6 medlemmer:</b></li>
+                <li>Silje Lilleeng Johnsen</li>
+                <li>Oda Humlung</li>
+                <li>Daniel Davidsen</li>
+                <li>Thomas Jacobsen</li>
+                <li>Awais Azeem</li>
+                <li>Herman Johannessen</li>
+            </ul>
+            <p> Håper dere liker løsningen vi har kommet med!</p>
+        </div>
+    </div>
+        <div class="tredjedel tredjedel-andre kollaps">
+        <?php 
         
         $navn = $epost = $type = $kommentar = "";
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -57,6 +82,7 @@
         echo $type;
         ?>
         </div>
+    </div>
     </body>
 </html>
 
