@@ -1,0 +1,30 @@
+/* av : Silje Lilleeng Johnsen */
+/* hover over tekst for å få annen tekstboks fram */
+body{
+    text-align: left;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+.tips {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted darkgray;
+}
+.tips .tipstekst{
+    visibility: hidden;
+    width: 700px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tips:hover .tipstekst{
+    visibility: visible;
+}
+ul{
+    line-height: 3em;
+}
