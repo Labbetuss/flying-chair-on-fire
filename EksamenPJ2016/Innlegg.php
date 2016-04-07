@@ -1,7 +1,7 @@
 <?php
 $title = "Innlegg";
 
-$content = '<form id="innlegg_form" method="post" accept-charset="UTF-8">
+$content = '<form id="innlegg_form" action="Innlegg.php" method="post" accept-charset="UTF-8">
 <fieldset>
 <input type="text" id="title" name="title" required placeholder="Tittel"><br><br>
 <textarea name="bcontent" id="bcontent" required rows="25" cols="80"></textarea><br>
@@ -35,6 +35,6 @@ tinymce.init({
 
 
 
-
+require 'php/config.inc.php';
 include 'Template.php';
 ?>
