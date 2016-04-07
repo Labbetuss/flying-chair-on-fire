@@ -3,9 +3,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>?php echo $title; ?</title>
+        <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="Styles/meny.css">
-   <!--     <script=$script></script> -->
+        <?php if(isset($script)) {echo $script} ?>
+        <?php if(isset($style)) {echo $style}?>
     </head>
     <body>
         <div id="wrapper">
@@ -29,4 +30,4 @@
             </nav>
         </div>
     </body>
-</html>         
+</html>
