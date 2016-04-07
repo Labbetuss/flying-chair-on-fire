@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="Styles/meny.css">
-        <?php if(isset($script)) {echo $script} ?>
-        <?php if(isset($style)) {echo $style}?>
+        <?php if(isset($script)) {echo $script;} ?>
     </head>
     <body>
         <div id="wrapper">
@@ -24,7 +23,7 @@
                     </ul>
                 </div>
                 <div id="main">
-                    <div id="content area">
+                    <div id="content area" <?php if(isset($divConf)) {echo $divConf;} ?>>
                     <?php echo $content; ?>
                     </div>
                 </div>
