@@ -1,10 +1,13 @@
 <?php
+
+
 $title = "Innlegg";
 
-$content = '<form id="innlegg_form" action="Innlegg.php" method="post" accept-charset="UTF-8">
+
+$content = '<form id="innlegg_form" action="includes/post.php" method="post" accept-charset="UTF-8">
 <fieldset>
 <input type="text" id="title" name="title" required placeholder="Tittel"><br><br>
-<textarea name="bcontent" id="bcontent" required rows="25" cols="80"></textarea><br>
+<textarea name="bcontent" id="bcontent" rows="25" cols="80"></textarea><br>
 <select name="kategori">
 <option value="Alle">Alle</option>
 <option value="Ledelse">Ledelse</option>
@@ -35,6 +38,9 @@ tinymce.init({
 
 
 
-require 'php/config.inc.php';
+
+
+
+//require 'php/config.inc.php';
 include 'Template.php';
-?>
+

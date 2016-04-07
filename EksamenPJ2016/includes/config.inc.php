@@ -15,7 +15,7 @@ session_start();
 //Også trenger vi en bedre måte å håndtere feilmeldinger på
 
 function my_error_handler($e_number, $e_message, $e_file, $e_line, $e_vars) {
-  global $live, $contact_mail;
+  global $live, $contact_mail, $verbose;
 
   $message = "An error occurred in script '$e_file' on line $e_line: \n$e_message\n";
 

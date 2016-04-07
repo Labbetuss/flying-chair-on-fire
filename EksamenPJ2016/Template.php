@@ -6,7 +6,6 @@
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="Styles/meny.css">
         <?php if(isset($script)) {echo $script;} ?>
-
     </head>
     <body>
         <div id="wrapper">

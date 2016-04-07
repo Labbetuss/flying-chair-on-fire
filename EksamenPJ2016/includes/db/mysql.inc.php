@@ -20,17 +20,11 @@ function escape_data($data) {
 
 // Returnerer en Array. Da denne ikke tar input fra brukeren så trenger jeg ikke bekymre meg for SQL injections
 function get_blogpost($type = "Alle") {
-  global $dbc
+  global $dbc;
 
   $sql = "SELECT * FROM blog_posts WHERE type = $type;";
   $result = mysqli_query($dbc, $sql);
 
   return mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-}
-
-// Denne funksjonen skriver til databasen. Parameteret består av en Array med verdier
-function insert_blogpost($blogpost){
-  $sql = ""
 
 }
