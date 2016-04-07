@@ -5,6 +5,5 @@ $title = "Forside";
 $content = "Forsiden for bloggen til campus Fjerdingen!";
 
 include 'Template.php';
-include 'Templatefoot.php';
 ?>
 

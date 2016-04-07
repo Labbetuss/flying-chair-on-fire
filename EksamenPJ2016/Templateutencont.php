@@ -21,11 +21,6 @@
                         <li><a href="OmOss.php">OM OSS</a></li>
                     </ul>
                 </div>
-                <div id="main">
-                    <div id="content area">
-                    <?php echo $content; ?>
-                    </div>
-                </div>
             </nav>
         </div>
     </body>

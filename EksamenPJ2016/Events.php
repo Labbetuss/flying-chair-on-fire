@@ -1,30 +1,50 @@
 <!-- av: Silje Lilleeng Johnsen-->
-<?php
-$title = "Events";
-
-$content = "Dette skjer på Campus Fjerdingen 
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-        natoque penatibus et magnis dis parturient montes, nascetur 
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
-        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, 
-        rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis 
-        eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus 
-        elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo 
-        ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam 
-        lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus 
-        viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean 
-        imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper 
-        ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus 
-        eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing 
-        sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, 
-        hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec 
-        vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit 
-        amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris 
-        sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget 
-        bibendum sodales, augue velit cursus nunc,";
-
-include 'Template.php';
-include 'Templatefoot.php';
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Events</title>
+        <link rel="stylesheet" type="text/css" href="Styles/Oppslag.css">
+        <link rel="stylesheet" href="Styles/Responsive.css" media="screen and (max-width:1200px)">
+    </head>
+    <body>
+                <?php
+include 'Templateutencont.php';
 ?>
+        <div class="boks-innhold">
+                <div class="trestk clearfix">
+        <div class="tredjedel kollaps">
+            <img src="Bilder/IS098R1O4_Comp.jpg" alt="Eksempelbilde"/>
+            <h2>Åpningsfest Campus Fjerdingen!</h2>
+            <p>Westerdals har fått seg nytt campus for avdelingene til 
+                Teknologi, kommunikasjon, kunstfag, og ledelse. Dette feirer vi 
+                ved å holde åpningsfest for alle elever ved Westerdals Oslo ACT.
+                Arangemanget blir holdt rett før skolestart. Forset vil skje på 
+                den nye baren til Fjerdingen, og deretter drar man videre til 
+                Blå. Det vil også bli holdt beer pong turnering.   </p>
+        </div>
+                    
+        <div class="tredjedel tredjedel-andre kollaps">
+            <img src="Bilder/IS098R1O4_Comp.jpg" alt="Eksempelbilde"/>
+            <h2>Åpen dag på Campus Fjerdingen!</h2>
+            <p>Hvert år er det åpen dag på campus galleriet for alle som ønsker 
+                å begynne, eller har kommet inn og lurer på hvordan skolen ser 
+                ut. Denne åpne dagen pleier å være rettet for nye studenter, 
+                men i år flytter tidligere studenter fra campus Galleriet, 
+                Vaterland og noen linjer fra Vulkan. Så dette blir en fin 
+                mulighet for alle som begynner eller tenker å begynne å møtes 
+                og se det nye campuset. </p>
+        </div>
+        <div class="tredjedel tredjedel-siste kollaps">
+            <img src="Bilder/IS098R1O4_Comp.jpg" alt="Eksempelbilde"/>
+            <h2>Gjesteforelesning med Kygo og Pfaff!</h2>
+            <p>Årets første forelesning i objektorientert gaming blir med 
+                gjesteforeleser og internasjonal musikkikon Kyrre “Kygo” 
+                Gørvell-Dahll og broren hans “Pfaff”. Dette er forventet å bli 
+                den eneste forelesningen hele året med 100% deltagelse, noe som 
+                også vil være en ny rekord for skolen.  </p>
+        </div>        
+                </div>
+        </div>
+    </body>
+</html>

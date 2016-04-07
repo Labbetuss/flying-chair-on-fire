@@ -9,7 +9,7 @@
     <body>
         <div id="meny">
         <?php 
-        include 'Templatehead.php';
+        include 'Templateutencont.php';
         
         $navn = $epost = $type = $kommentar = "";
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -49,8 +49,6 @@
         echo $kommentar;
         echo "<br>";
         echo $type;
-        
-        include 'Templatefoot.php';
         ?>
         </div>
     </body>

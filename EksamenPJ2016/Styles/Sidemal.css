@@ -2,8 +2,10 @@
 /* Skalerer bilder og tekst med vindu størrelse, og at 
 stokker seg opppå hverandre ved en hvis størrelse (de blir ikke mindre)*/
 body{
-    padding: 0;
-    margin: 0;
+    text-align: left;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
 }
 p{
     margin: 0 0 1em 0;
@@ -12,28 +14,22 @@ p{
     border-bottom: solid 2px gray;
     padding-bottom: 25px;
     margin-bottom: 50px;
-}
-/* gjør at bildene scalerer med vinduet */
-img{
     max-width: 100%;
-    height: auto;
-    margin: 0 0 10px 0;
 }
 div.boks-innhold{
     padding: 50px 0;
     max-width: 1200px;
     margin: auto;
 }
-div.trestk{
+div.innhold{
     padding-bottom: 50px;
-}
-div.tredjedel{
-    width: 30%;
     float: left;
-    margin-right: 5%;
 }
-div.tredjedel-siste{
-    margin: 0;
+/* gjør at bildene scalerer med vinduet */
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
 }
 @media screen and (max-width: 800px)
 {
@@ -43,3 +39,11 @@ div.tredjedel-siste{
         margin-right: 0;
     }
 }
+/* 
+div.trestk{
+    padding-bottom: 50px;
+}
+
+div.tredjedel-siste{
+    margin: 0;
+} */

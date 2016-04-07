@@ -4,9 +4,8 @@ midtstilling av innholdet på alle sidene,
 samt tekst funksjonalitet */
 body{
     height: 100%;
-}
-html{
-    height: 100%;
+    width: 1200px;
+    margin: auto;
 }
 #wrapper{
     max-width: 1200px;
@@ -48,16 +47,4 @@ ul{
 .logo img{
     height: 50px;
     width: auto;
-}
-#foot{
-    min-width: 1200px;
-    height: 50px;
-    margin-top: -50px;
-    width: 1024px;
-    background-color: white;
-    position: relative;
-    clear: both;
-    padding: 5px;
-    border-top: 2px solid black; 
-    margin: auto;
 }

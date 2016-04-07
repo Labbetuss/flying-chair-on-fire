@@ -8,11 +8,12 @@ holder over tekst-->
         <meta charset="utf-8">
         <title>Hjelp</title>
         <link rel="stylesheet" type="text/css" href="Styles/tips.css">
+        <link rel="stylesheet" href="Styles/Sidemal.css" media="screen and (max-width:1200px)">
     </head>
     <body>
-        <div class="meny">
+        <div class="boks-innhold">
                         <?php
-include 'Templatehead.php';
+        include 'Templateutencont.php';
 ?>
                 <h3>DON'T PANIC <i>and grab your towel</i></h3>
                 <p>Vi er <i>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</i>, og er her for og hjelpe deg 
@@ -20,7 +21,7 @@ include 'Templatehead.php';
                 Hvis du føler at du er i en Arthur Dent situasjon, og alt det kjente og kjære
                 føles håpløst langt borte, frykt ikke, for vi er din Ford Prefect, og vi har
                 flere løsninger til nytte for deg på denne siden.</p>
-                <h3>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</h3>
+                <h1>STUDENTENS GUIDE TIL CAMPUS FJERDINGEN</h1>
                 <ul>
                     <li>
                         <div class="tips"><b>Dette er min første dag på Campus Fjerdingen, og jeg føler meg litt ensom.<br></b>
@@ -63,8 +64,5 @@ include 'Templatehead.php';
                 føles håpløst langt borte, frykt ikke, for vi er din Ford Prefect, og vi har
                 flere løsninger til nytte for deg på denne siden.</p>
         </div>
-        <?php
-include 'Templatefoot.php';
-?>
     </body>
 </html>
