@@ -5,6 +5,7 @@
     <head>
         <meta charset="utf-8">
         <title>Om oss</title>
+        <link rel="stylesheet" type="text/css" href="Styles/tips.css">
         <link rel="stylesheet" href="Styles/Sidemal.css" media="screen and (max-width:1200px)">
     </head>
     <body>

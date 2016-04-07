@@ -27,16 +27,22 @@
         }
         ?>
         <h2>Har du tips til oss?</h2>
+        <p>
+            <span class="error">*må fylles inn.</span>
+        </p>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             Name: <input type="text" name="name">
+            <span class="error">*navn</span>
             <br><br>
             E-post: <input type="text" name="epost">
+            <span class="error">*e-post</span>
             <br><br>
             Ditt tips: <textarea name="kommentar" rows="15" cols="40"></textarea>
             <br><br>
             Type: <input type="radio" name="type" value="ansatt">Ansatt
             <input type="radio" name="type" value="student">Student
             <input type="radio" name="type" value="andre">Andre
+            <span class="error">*type</span>
             <br><br>
             <input type="submit" name="submit" value="Submit">
         </form>

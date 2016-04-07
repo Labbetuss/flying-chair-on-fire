@@ -4,8 +4,6 @@ midtstilling av innholdet på alle sidene,
 samt tekst funksjonalitet */
 body{
     height: 100%;
-    width: 1200px;
-    margin: auto;
 }
 #wrapper{
     max-width: 1200px;
@@ -14,7 +12,7 @@ body{
 }
 #meny{
     min-width: 1200px;
-    height: 70px;
+    height: 100px;
     width: 1024px;
     position: relative;
     clear: none;
@@ -47,4 +45,11 @@ ul{
 .logo img{
     height: 50px;
     width: auto;
+}
+.logginn img{
+    height: 25px;
+    width: auto;
+}
+.error{
+    color: red;
 }

@@ -14,7 +14,7 @@ include 'Templateutencont.php';
         <div class="boks-innhold">
                 <div class="trestk clearfix">
         <div class="tredjedel kollaps">
-            <img src="Bilder/IS098R1O4_Comp.jpg" alt="Eksempelbilde"/>
+            <img src="Bilder/20150424_ext_cam01_final_updated-1-e1449055645520-960x482.jpg" alt="Eksempelbilde"/>
             <h2>Åpningsfest Campus Fjerdingen!</h2>
             <p>Westerdals har fått seg nytt campus for avdelingene til 
                 Teknologi, kommunikasjon, kunstfag, og ledelse. Dette feirer vi 
@@ -25,7 +25,7 @@ include 'Templateutencont.php';
         </div>
                     
         <div class="tredjedel tredjedel-andre kollaps">
-            <img src="Bilder/IS098R1O4_Comp.jpg" alt="Eksempelbilde"/>
+            <img src="Bilder/Atrium-B.jpg" alt="Eksempelbilde"/>
             <h2>Åpen dag på Campus Fjerdingen!</h2>
             <p>Hvert år er det åpen dag på campus galleriet for alle som ønsker 
                 å begynne, eller har kommet inn og lurer på hvordan skolen ser 

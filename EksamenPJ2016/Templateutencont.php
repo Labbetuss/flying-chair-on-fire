@@ -19,6 +19,7 @@
                         <li><a href="Hjelp.php">HJELP</a></li>
                         <li><a href="TipsOss.php">TIPS OSS</a></li>
                         <li><a href="OmOss.php">OM OSS</a></li>
+                        <li><a href="Logginn.php"><div class="logginn"><img src="Bilder/ExistingUsersKeyIcon.png"</div></a></li>
                     </ul>
                 </div>
             </nav>
